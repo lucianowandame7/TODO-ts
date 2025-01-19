@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",                 // Gera código ES6 para melhor desempenho
+        "module": "es6",                 // Usa sistema de módulos ES6 (para navegadores modernos)
+        "outDir": "public/dist",              // Saída dos arquivos compilados
+        "strict": true,                  // Verificações rigorosas de tipo
+        "esModuleInterop": true,         // Interop para importações
+        "skipLibCheck": true,            // Ignora verificações de tipos em bibliotecas
+        "forceConsistentCasingInFileNames": true // Consistência de nomes
+    },
+    "include": ["src/**/*"],            // Compila todos os arquivos na pasta src
+    "exclude": ["node_modules", "public/dist"] // Exclui node_modules e dist
+}
